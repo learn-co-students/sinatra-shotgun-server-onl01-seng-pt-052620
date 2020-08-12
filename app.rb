@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get '/h' do
+  get '/' do
     "Started my server using shotgun."
   end
 
